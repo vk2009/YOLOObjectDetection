@@ -2,9 +2,7 @@ from ultralytics import YOLO
 import numpy as np
 import cv2
 
-# Load your model
-# home = '/Users/viditkwatra/Robotics_Antares_Vision_2025/AlgaeDetection/AlgaeDetectionModel/'
-# model = YOLO(f'{home}algaeDetectionBest.pt')
+
 model = YOLO("/path/model.pt")
 
 # Access the webcam
